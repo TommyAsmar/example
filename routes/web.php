@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\JobController;
+use App\Mail\JobPosted;
 use Illuminate\Auth\Events\Registered;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisteredUserController;
 use App\Http\Controllers\SessionController;
